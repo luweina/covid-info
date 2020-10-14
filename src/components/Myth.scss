@@ -1,0 +1,75 @@
+.Myth-parent {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #fbf4ff;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .callout {
+    padding: 0.8em 1em;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    clear: both;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .callout::before {
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 1.5em;
+    left: -1.2rem;
+    content: "🙋🏾‍♀️";
+    background-color: #b4aaff;
+    border-radius: 50%;
+    align-items: center;
+    top: -0.8rem;
+  }
+
+  .callout {
+    background: rgba(224, 226, 255, 0.5);
+    border-left: 4px solid #b4aaff;
+    color: #242424;
+    margin: 1em;
+  }
+
+  .callout.warning::before {
+    content: "⚠️";
+    background-color: orangered;
+    border-radius: 50%;
+    align-items: center;
+    top: -0.8rem;
+  }
+
+  .callout.success::before {
+    content: "🎉";
+    background-color: #3cc3c3;
+    border-radius: 50%;
+    align-items: center;
+    top: -0.8rem;
+  }
+
+  .callout.warning {
+    background-color: #ffe5d9;
+    border-left: 4px solid orangered;
+  }
+
+  .callout.success {
+    background-color: #edf3ed;
+    border-left: 4px solid #3cc3c3;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  .youtube-videos {
+
+    margin-top: 20px;
+  }

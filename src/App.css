@@ -1,9 +1,15 @@
 * {
   margin: 0;
+  font-family: 'Work Sans', sans-serif;
+
+
+
 }
 
 body {
-  background-color: #f5f6fa;
+
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(209, 209, 209));
+
 }
 
 .app {
@@ -11,6 +17,8 @@ body {
   justify-content: space-evenly;
   background-color: #f5f6fa;
   padding: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
 }
 
 .app__dropdown {
