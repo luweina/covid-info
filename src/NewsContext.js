@@ -7,12 +7,12 @@ export const NewsContext = createContext();
 
 export const NewsContextProvider = (props) => {
   const [data, setData] = useState();
-  const apiKey = "3e8f1a450098461f9c773942158f4f5d";
+
 
   useEffect(() => {
     axios
       .get(
-        `https://newsapi.org/v2/top-headlines?country=ca&category=health&apiKey=${apiKey}`
+        `https://gnews.io/api/v4/search?q=health&country=ca&token=7f6ba4bad21ef7e3ecb370a0fa8b4b72&lang=en`
       )
 
       .then((response) => setData(response.data))

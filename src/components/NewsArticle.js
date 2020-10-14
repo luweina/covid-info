@@ -5,7 +5,7 @@ function NewsArticle({ data }) {
     <div className="news">
       <h1 className="news__title">{data.title}</h1>
       <p className="news__desc">{data.description}</p>
-      <img alt = "" className = "news__img" src = {data.urlToImage}></img>
+      <img alt = "" className = "news__img" src = {data.image}></img>
       <span className="news__author">{data.author}</span> <br />
       <span className="news__published">{data.publishedAt}</span>
       <span className="news__source">{data.source.name}</span>
